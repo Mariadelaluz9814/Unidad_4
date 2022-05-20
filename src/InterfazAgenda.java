@@ -336,6 +336,7 @@ public class InterfazAgenda extends JFrame{
     private void conectarBaseDatosAgenda() {
         con=new ConectarAgenda();
         reg=con.conexionAgenda();
+
     }
     private void limpiar(){
 
