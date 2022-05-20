@@ -338,6 +338,7 @@ public class InterfazAgenda extends JFrame{
         reg=con.conexionAgenda();
     }
     private void limpiar(){
+
         txtNombre.setText("");
         txtApellidos.setText("");
         txtCasa.setText("");
